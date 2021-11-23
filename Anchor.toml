@@ -1,0 +1,12 @@
+[programs.devnet]
+gifexpolorer = "9pZpRQjVXyKKpJ1dEczDogkHARnKp9GaK3eUzX9i7cNd"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/bjar/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
